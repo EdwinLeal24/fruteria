@@ -14,10 +14,22 @@ export const Main = styled.div`
   width: 50%;
 `
 
+export const Section = styled.div`
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: 100%;
+  place-content: center;
+  place-items: center;
+`
+
 export const Title = styled.h1`
   background: #ccc;
-  background: linear-gradient(90deg, #007cf0, #000);
+  background: linear-gradient(90deg, #007cf0, #3498DB);
   font-size: 3rem;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 `
+export const ListCard = styled.div`
+  grid-column-start: 2;
+  width: 100%
+`;

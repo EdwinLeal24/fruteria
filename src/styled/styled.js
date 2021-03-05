@@ -33,3 +33,8 @@ export const ListCard = styled.div`
   grid-column-start: 2;
   width: 100%
 `;
+
+export const TicketCard = styled.div`
+  grid-column-start: 3;
+  width: 100%
+`;
